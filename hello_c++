@@ -1,0 +1,26 @@
+#inlcude<iostream>
+
+use namespace std;
+
+int main(){
+//引用的学习
+int x =0;
+int& rx = x;
+
+rx=10;
+
+cout<<"x="<<x<<endl;
+cout<<"rx="<<rx<<endl;
+
+char* p = "yes";
+char* s = "no";
+
+char*& t = p;
+
+t = s;
+
+cout<<"p="<<p<<endl;
+cout<<"t="<<t<<endl;
+
+return 0;
+}
